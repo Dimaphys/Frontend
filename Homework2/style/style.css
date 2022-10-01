@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    height: 100%;
+}
+
+.whrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.content{
+    display: flex;
+    flex-grow: 1;
+    padding-bottom: 50px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.logos {
+    background-color: rgb(190,201,255);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: fit-content;
+}
+.logos img {
+    max-height: 50px;
+    width: auto;
+    margin:0 20px;
+}
+.comments{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    height: 50%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.line:first-child{
+    border-bottom: 1px solid rgb(128,128,128);
+}
+.line:last-child{
+    margin-top: 2px;
+    border-top: 1px solid rgb(44,44,44);
+    position: relative;
+}
+.line:last-child::before{
+    content: " ";
+    position: absolute;
+    top: -3px;
+    left: -1px;
+    height: 2px;
+    width: 1px;
+    background-color: rgb(255, 255, 255);
+}
+.line:last-child::after{
+    content: " ";
+    position: absolute;
+    top: -3px;
+    right: -1px;
+    height: 2px;
+    width: 1px;
+    background-color: rgb(255, 255, 255);
+}
+.yellow{
+    background-color: rgb(255,254,208);
+}
+.blue{
+    background-color: rgb(206,206,255);
+}
+.green{
+    background-color: rgb(208,251,208);
+}
+th{
+    font-size: 24px;
+    text-align: center;
+
+}
+td{
+    font-size: 24px;
+    text-align: center;
+
+}
+table{
+    height: fit-content;
+}
+tr{
+    height: 100%;
+}

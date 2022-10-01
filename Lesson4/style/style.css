@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    border: 2px solid black;
+    width: 80%;
+    min-height: 100px;
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.about-me{
+    background-color: rgb(65, 197, 60);
+}
+.hobbies{
+    background-color: cyan;
+    
+}
+.work{
+    background-color: deepskyblue;
+}
+.hobbies img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
